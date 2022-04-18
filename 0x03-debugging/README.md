@@ -1,1 +1,1 @@
-debug
+it's about c debugging
