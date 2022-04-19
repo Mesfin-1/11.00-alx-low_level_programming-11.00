@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  *_puts prints a string
  *@astr a pointer to an int that will be updated
  *return: void that means is correct
