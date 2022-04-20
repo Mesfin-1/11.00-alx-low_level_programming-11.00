@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *reset_to_98 – updates a integer value to98
+ *0_reset_to_98.c: - updates a integer value to 98
  *@n: a pointer to an int that will be updated
  *
  *return: void that means is correct
