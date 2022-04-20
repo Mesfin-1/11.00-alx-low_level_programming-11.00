@@ -33,7 +33,7 @@ for (i = last; str[i]; i++)
 
 }
 
-_putchat ('\n');
+_putchar ('\n');
 
 }
 
