@@ -14,7 +14,7 @@ int i, count;
 int length = 0;
 for (i = 0; s[1]; i++)
 {
-length++
+length++;
 }
 count = length;
 start_c = s;
