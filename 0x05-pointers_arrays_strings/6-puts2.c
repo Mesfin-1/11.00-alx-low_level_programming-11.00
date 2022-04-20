@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *puts2 prints every character of a sting
+ *puts2 - prints every character of a sting
  *@str: a pointer to an int that will be updated
+ *
  *return: void that means is correct
  */
 
