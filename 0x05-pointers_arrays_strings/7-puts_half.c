@@ -29,7 +29,7 @@ for (i = last; str[i]; i++)
 
 {
 
--putchar (str[i]);
+_putchar (str[i]);
 
 }
 
