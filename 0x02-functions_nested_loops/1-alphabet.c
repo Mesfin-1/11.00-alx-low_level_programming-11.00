@@ -5,10 +5,12 @@
  * print_alphabet: function that will print the alphabet
  * Return: Always (Success)
  */
+
 void print_alphabet(void)
+
 {
-int ch;
-for (ch = 'a'; ch <= 'z'; ++ch)
-_putchar(ch);
+int h;
+for (h = 'a'; h <= 'z'; ++h)
+_putchar(h);
 _putchar('\n');
 }
