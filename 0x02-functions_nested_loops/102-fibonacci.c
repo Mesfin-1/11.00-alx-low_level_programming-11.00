@@ -6,7 +6,7 @@
  * starting with 1 and 2 folled by a new line
  *
  * Return: Always 0 (Success)
- */ 
+ */
 int main(void)
 {
 int count;
