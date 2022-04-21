@@ -2,11 +2,12 @@
 #include <stdio.h>
 /**
  * add - add two integers
- * @a: first input
- *
+ * @i: first input
+ * @k: second input
  * Return: sum of a & b
  */
 int add(int i, int k)
 {
-return (i + k);
+sum = i + k;
+return (sum);
 }
