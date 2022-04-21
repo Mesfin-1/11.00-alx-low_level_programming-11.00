@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the alphabetic
- *
+ * print_alphabet: function that will print the alphabet
  * Return: Always (Success)
  */
 void print_alphabet(void)
