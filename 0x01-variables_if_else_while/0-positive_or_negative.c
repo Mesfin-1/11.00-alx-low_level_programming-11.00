@@ -1,26 +1,27 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
-  * main - Prints the numbers from 00 to 99
-  *
-  * Return: Always (Success)
-  */
+ *  main - entry point
+ *
+ *Return: Always 0 (Success/correct)
+ */
 int main(void)
 {
-int c, i;
-c = i = '0';
-for (c = '0'; c <= '9'; c++)
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n == 0)
 {
-for (i = '0'; i <= '9'; i++)
+printf("%i is zero\n", n);
+}
+else if (n < 0)
 {
-putchar(c);
-putchar(i);
-if ((c != '9') || (c == '9' && i != '9'))
-{
-putchar(',');
-putchar(' ');
+printf("%i is negative\n", n);
 }
+else 
+{ 
+printf(%i is positive\n", n);
 }
-}
-putchar('\n');
 return (0);
 }
