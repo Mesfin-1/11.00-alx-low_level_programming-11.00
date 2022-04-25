@@ -8,7 +8,7 @@ int main(void)
 {
 char lc;
 char uc;
-for (lc = 'a'; lc <= 'z'; lc++_
+for (lc = 'a'; lc <= 'z'; lc++i_)
 {
 putchar(lc);
 }
